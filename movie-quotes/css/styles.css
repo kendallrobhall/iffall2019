@@ -1,0 +1,18 @@
+body {
+	font-family: sans-serif;color: black
+}
+h1 {
+	border: dotted;text-align: center;font-size: 36pt
+}
+strong {
+	text-decoration: bold
+}
+.all-quotes {
+margin-left: 100pt;margin-right: 100pt;font-size:13pt;line-height: 17pt
+}
+h2 {
+	font-size: 16pt;color: green;text-indent: 100pt
+}
+footer {
+	text-align: center;
+}
