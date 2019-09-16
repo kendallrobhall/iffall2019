@@ -1,0 +1,32 @@
+body {
+	font-family: 'Ubuntu', sans-serif; background-color: ##cce6ff;margin-left: 80px}
+ h1 {
+	text-transform: uppercase;color:navy;font-size: 40pt; margin-left:-20px;margin-bottom: 10px;font-weight: 700}
+h2 {
+	font-size: 12pt; font-weight: 300;margin-right: 600px;line-height: 16pt}
+p {
+	font-size: 14pt}
+em {
+	font-weight: 500;font-size: 16pt;margin-left: -20px}
+section {font-size: 12pt;}
+.indicators {
+	font-size: 8pt; font-style: italic;color: gray}
+/*font weight*/
+#thin {font-weight: 300}
+#normal {font-weight: 400;}
+#thicc {font-weight: 500;}
+#vthicc {font-weight: 700;}
+/*font style*/
+#italic {font-style: italic;}
+/*letter spacing*/
+#pointthreeem {letter-spacing: .03em}
+#negpointzerosix {letter-spacing: -.06em}
+.headings {padding-bottom: 6px; text-transform: uppercase;}
+/*text transform*/
+#uppercase {text-transform: uppercase;}
+#lowecase {text-transform: lowercase;}
+#capitalize {text-transform: capitalize;}
+/*text decoration*/
+#underline {text-decoration:underline; }
+#line-through {text-decoration:line-through;}
+#overline {text-decoration:overline;}
