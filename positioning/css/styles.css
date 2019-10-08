@@ -1,0 +1,21 @@
+.floterite {
+	float: right; display: inline-block;
+}
+.sectionuno {
+	position: relative;
+}
+.dropright{
+	position: absolute;bottom: 0px; right: 0px
+
+}
+.sectiondos {position: relative;}
+
+.toprite {position: absolute;top: 0px;right: 0px;background-color: green;position: fixed;}
+
+.lastsection {position: relative}
+
+.box1 {background-color: red; z-index: 2;position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%);
+}
+
+.box2 {background-color: black;position: absolute;margin: 10px;left: 50%; top: 50%;transform: translate(-50%, -50%);
+}
