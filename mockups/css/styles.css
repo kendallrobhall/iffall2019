@@ -1,0 +1,21 @@
+body {background-color: #f7e5cd;
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 60pt;
+margin-bottom: 10px; 
+}
+
+h2{
+font-size: 30pt
+}
+img {
+	display: inline-block;
+	height: 250px;
+}
+
+footer{
+	font-family: 'Ubuntu', sans-serif;
+}
