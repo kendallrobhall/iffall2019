@@ -1,0 +1,10 @@
+div {
+	font-family: sans-serif;
+	margin: 2%;
+}
+
+img {
+	position: inline-block;
+	width: 24%;
+	vertical-align: top;
+}
