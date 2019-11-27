@@ -1,10 +1,4 @@
-div {
-	font-family: sans-serif;
-	margin: 2%;
+body {
+	font-family: 'Ubuntu', sans-serif;
 }
 
-img {
-	position: inline-block;
-	width: 24%;
-	vertical-align: top;
-}
