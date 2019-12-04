@@ -1,9 +1,17 @@
 body {font-family: 'Ubuntu', sans-serif;
 background-image: url("breadtexture.jpg");
  background-attachment: fixed;
+/*height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;*/
  background-position: center;
  margin: 0;
  padding:0;
+}
+
+.help {
+	height:300px;
 }
 
 header {text-align: center; 
@@ -23,7 +31,7 @@ h1 {
 	text-shadow: 4px 4px 0px green;
 }
 
-section#tabs {padding-top: 25px;
+#tabs {padding-top: 25px;
 	padding-bottom: 25px;
 border:10px solid pink;
 width: 100%;
@@ -31,42 +39,62 @@ background-color: white;
 box-sizing: border-box;
 margin: 0 auto 45px auto;}
 
+#tabs a {
+	width: 15%;
+}
+
+#tabs a:hover {color: pink;transform:rotate(359deg);
+				transition: .7s;}
+#tabs a:active {color: green}
+
 a {display: inline-block;
 	color: blue;
 	font-size: 13pt;
 font-weight: 700;
 margin: 0px 45px;
 text-decoration: none;
+margin: 0px;
 }
 
-section.content {
+.pullout {
+	padding: 0px 20px 20px 0px;
+	width: 40%;
+	font-size: 16pt;
+	line-height: 1.5rem;
+	font-weight: bolder;
+	color: pink;
+	float: left;
+}
+
+.content {
+	
 	margin: auto;
-	padding: 20px;
-	border: 10px solid pink;
+	padding: 50px;
+	/*border: 10px solid pink;*/
 width: 75%;
 background-color: white;
 }
 
 section.content2 {
 	margin: auto;
-	padding: 20px;
-	border: 10px solid blue;
+	padding: 50px;
+	/*border: 10px solid blue;*/
 width: 75%;
 background-color: white;
 }
 
 section.content3 {
 	margin: auto;
-	padding: 20px;
-	border: 10px solid green;
+	padding: 50px;
+	/*border: 10px solid green;*/
 width: 75%;
 background-color: white;
 }
 
 section.content4 {
 	margin: auto;
-	padding: 20px;
-	border: 10px solid pink;
+	padding: 50px;
+	/*border: 10px solid pink;*/
 width: 75%;
 background-color: white;
 }
@@ -77,8 +105,14 @@ section.content4 img {
 	width: auto;
 }
 
+.content img {width:37%;
+margin-left: 50px;
+margin-top: 5px}
+
 img {
-	width: 100%
+	width: 50%;
+	float: right;
+	padding: 20px;
 }
 
 footer { 
@@ -99,7 +133,7 @@ h2 {
 h3 {
 	margin-top: 10px;
 	margin-bottom: 5px;
-	font-size: 40pt;
+	font-size: 20pt;
 	font-weight: 600;
 	color: black;
 	font-style: italic;
@@ -110,14 +144,55 @@ section#list div {
 display: inline-block;
 vertical-align: top;
 padding: 5px;
-width:49%;
+width:45%;
 }
+
+.content4 div p {
+	/*color: red;*/
+	float: left;
+}
+
+.content4 .right img {
+	float: right;
+	height: 200px;
+}
+
+
+/*.content4 .right {
+	height:20px;
+}*/
 
 p {
 	font-size: 13pt;
 	line-height: 1.5em;
 }
 
-@media (max-width: 900px)
+@media (max-width: 970px)
 {h1 {
 	font-size: 1rem}
+
+	.content4 div p {
+		display:block;
+		float:none;
+		clear: both;
+		width:100%;
+	}
+
+	.content4 img {
+		display:block;
+		float: none;
+		clear: both;
+		width:100%;
+	}
+
+	#tabs a { width: 35%;
+		margin-bottom: 7px;
+		font-size: 10pt;
+	} }
+
+h2 {font-size: 20pt}
+
+@media (max-width: 650px)
+{p {font-size: 10pt }
+.pullout {font-size: 11pt}
+}
